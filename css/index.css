@@ -85,8 +85,9 @@ html,body{
 }
 
 .main-body .presentacion-section{
-    padding-top: 18%;
-    height: 80%;
+    padding-top: 10rem;
+    height: 100%;
+    padding-bottom: 15%;
 }
 
 .linea-titulo{
@@ -109,7 +110,7 @@ html,body{
 
 .main-body .sobre-mi{
     background-color: var(--bg-color-2);
-    padding: 1rem 5rem;
+    padding: 1rem;
 }
 
 .main-body .sobre-mi .parrafo{

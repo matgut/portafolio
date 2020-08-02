@@ -124,7 +124,7 @@ nav{
 }
 
 .main-body .habilidades{
-    padding: 1rem 5rem;
+    padding: 1rem;
 }
 
 .main-body .habilidades .icon-habilidades i{
@@ -139,8 +139,10 @@ nav{
 }
 
 .main-body .habilidades .especial_p{
-    font-size: 16px;
+    font-size: 10px;
     font-weight: bold;
+    color: black;
+    margin: 0.1rem;
 }
 
 .main-body .habilidades .card{
@@ -153,7 +155,7 @@ nav{
 }
 
 .main-body .empresas{
-    padding: 1rem 5rem 8rem;
+    padding: 2rem 5rem 8rem;
     background-color: var(--bg-color-2);
 }
 
@@ -175,5 +177,15 @@ nav{
     color: white;
     font-size:  25px;
 }
+
+.main-body .habilidades .card .card-title {
+    margin-bottom: 0.1rem;
+}
+
+.main-body .habilidades .card .card-text {
+    font-size: 14px;
+}
+
+
 
 

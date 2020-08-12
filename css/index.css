@@ -3,6 +3,7 @@
     --hover-color: #ff6600;
     --text-color: black;
     --bg-color-2: #fffaf5;
+    --bg-color-3: #757575;
 
 }
 
@@ -38,7 +39,7 @@ html,body{
 
 .header .main .navbar-nav .active a{
     background-color: var(--main-color);
-    color:#FFF!important;
+    color: var(--bg-color-2) !important;
     transition: all ease 0.4s;
     border-radius: 5px;
 }
@@ -46,7 +47,7 @@ html,body{
 
 .header .main .navbar-nav a:hover{
     background-color: var(--hover-color);
-    color:#FFF!important;
+    color: var(--bg-color-2) !important;
     transition: all ease 0.5s;
     border-radius: 5px;
 }
@@ -58,23 +59,24 @@ html,body{
     justify-content: center;
     align-items: center;
     background-color: var(--main-color);
-    color: #FFF;
+    color: var(--bg-color-2);
     border-radius: 5px;
+    font-weight: 400;
 }
 
 .btn_general:hover{
     background-color: var(--hover-color);
-    color:#FFF!important;
+    color:var(--bg-color-2) !important;
     transition: all ease 0.5s;
 }
 
 .rrss i{
-    color: #FF7F2A;
+    color: var(--main-color);
     font-size:  25px;
 }
 
 .rrss a:hover i{
-    color: #ff6600;
+    color: var(--hover-color);
     transition: all ease 0.5s;
 }
 
@@ -88,7 +90,7 @@ html,body{
     width: 5rem;
     height: .25rem;
     margin-bottom: 1.25rem;
-    background: #FF7F2A;
+    background: var(--main-color);
     margin-left: auto;
     margin-right: auto;
 }
@@ -114,7 +116,7 @@ html,body{
 }
 
 nav{
-    background-color: white;
+    background-color: var(--bg-color-2);
     box-shadow: 2px 2px 12px rgb(0,0,0,0.5);
 }
 
@@ -123,13 +125,13 @@ nav{
 }
 
 .main-body .habilidades .icon-habilidades i{
-    color: #FF7F2A;
+    color: var(--main-color);
     font-size:  30px;
     align-items: center;
 }
 
 .main-body .habilidades .icon-habilidades a:hover i{
-    color: #ff6600;
+    color: var(--hover-color);
     transition: all ease 0.5s;
 }
 
@@ -164,12 +166,12 @@ nav{
     background: #222;
     text-align: center;
     place-items: center;
-    color: white;
+    color: var(--bg-color-2);
     padding: 5rem 0;
 }
 
 .rrss-footer i{
-    color: white;
+    color: var(--bg-color-2);
     font-size:  25px;
 }
 
@@ -180,6 +182,40 @@ nav{
 .main-body .habilidades .card .card-text {
     font-size: 14px;
 }
+
+.linea_esp{ 
+    border: 1px solid #d1d1d1;
+}
+
+#btn-idioma{
+    background-color: #757575;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--bg-color-2);
+}
+
+.header .main .btn-group .dropdown-menu .dropdown-item{
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.header .main .btn-group .dropdown-menu button:hover{
+    background-color: var(--hover-color);
+    color:var(--bg-color-2) !important;
+    transition: all ease 0.5s;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+    background-color: var(--main-color);
+}
+
+
 
 
 

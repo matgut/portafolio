@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Christian Gutierrez | Software developer</title>
+    <title class="title-main">Christian Gutierrez | Desarrollador de software</title>
     <link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
@@ -28,7 +28,7 @@
                 <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="navbarNav">
                     <ul class="navbar-nav mx-auto text-center" id="ul_nabvar">
                         <li class="nav-item active">
-                            <a class="nav-link a-home" href="#inicio">Home</a>
+                            <a class="nav-link a-home" href="#inicio">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link a-sobre-mi" href="#sobre">Sobre mi</a>
@@ -40,6 +40,15 @@
                             <a class="nav-link a-empresas" href="#empresas">Empresas</a>
                         </li>
                     </ul>
+                    <div class="btn-group dropleft navbar-nav ml-auto">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="btn-idioma">
+                            Idioma
+                        </button>
+                        <div class="dropdown-menu">
+                            <button class="dropdown-item" type="button" id="btn-idioma-es"><img src="./img/chile.png" alt="flag_cl"> Español</button>
+                            <button class="dropdown-item" type="button" id="btn-idioma-en"><img src="./img/united-kingdom.png" alt="flag_uk"> Ingles</button>
+                        </div>
+                    </div>
                 </div>
             </nav>
         </div>
@@ -55,9 +64,9 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12 presentacion">
                         <h1 class="presentacion-nombre">Christian Gutierrez M.</h1>
-                        <h4 class="presentacion-profesion">Desarrollador de software</h4>
+                        <h4 class="presentacion-profesion h4-presentacion">Desarrollador de software</h4>
                         <br>
-                        <a href="#" class="btn btn_general btn-contacto">Contacto</a>
+                        <a href="https://wa.me/56961177808" class="btn btn_general btn-contacto"><i class="fab fa-whatsapp"></i> &nbsp;Contactame </a>
                         <div class="rrss mt-3">
                             <a href="https://www.facebook.com/christianmatias.gutierrezmolina"><i class="fab fa-facebook-square"></i></a>
                             <a href="https://github.com/matgut"><i class="fab fa-github-square"></i></a>
@@ -89,10 +98,10 @@
                             <h4 class="h4-hola">Hola, soy</h4>
                             <h3>Christian Gutierrez Molina</h3>
                             <p class="p-descripcion-1">
-                                Egresado de la carrera de ingeniería en informática. En los ultimos años me he desempeñado como desarrollador, he participado en proyectos los cuales me han brindado la experiencia y el conocimiento necesario para crecer profesionalmente.
+                                Egresado de la carrera de ingeniería en informática. En los ultimos años me he desempeñado como desarrollador de softwarre mas en el ambito desarrollo web, he participado en proyectos los cuales me han brindado la experiencia y el conocimiento necesario para crecer profesionalmente.
                                 Actualmente obtengo 4 años de experiencia.
                             </p>
-                            <p class="p-descripcion-1">
+                            <p class="p-descripcion-2">
                                 Parte de mi tiempo libre lo utilizo para investigar y aprender nuevas tecnologías, para asi poder ampliar mi conocimiento en este rubro.
                             </p>
                         </div>
@@ -105,71 +114,71 @@
         <!--Habilidades-->
         <section class="habilidades" id="habilidades">
             <div class="titulo-section">
-                <h1>Habilidades</h1>
+                <h1 class="h1-habilidades">Habilidades</h1>
                 <div class="linea-titulo"></div>
             </div>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-4 col-sm-12">
+                    <div class="col-md-4">
                         <div class="card text-center">
                             <div class="card-body">
                                 <div class="card-title">
-                                    <div class="col"><hr></div>
+                                    <div class="col"><hr class="linea_esp"></div>
                                     <div class="col-auto especial_p"><h5 class="">GIT</h5></div>
-                                    <div class="col"><hr></div>
+                                    <div class="col"><hr class="linea_esp"></div>
                                 </div>
                               <div class="icon-habilidades mt-3">
-                                <a href="#"><i class="fab fa-git-alt"></i></a>
-                                <a href="#"><i class="fab fa-github"></i></a>
-                                <a href="#"><i class="fab fa-gitlab"></i></a>
+                                <i class="fab fa-git-alt"></i>
+                                <i class="fab fa-github"></i>
+                                <i class="fab fa-gitlab"></i>
                             </div>
-                              <p class="card-text">Manejo correctamente de herramienta Git para el control de versiones, experiencia con GITHUB Y GITLAB</p>
+                              <p class="card-text text-git">Manejo correctamente de herramienta Git para el control de versiones, experiencia con <b>GITHUB</b> Y <b>GITLAB</b></p>
                             </div>
                           </div>
                     </div>
-                    <div class="col-lg-4 col-md-12">
+                    <div class="col-md-4">
                         <div class="card text-center">
                             <div class="card-body">
-                                <div class="col"><hr></div>
+                                <div class="col""><hr class="linea_esp"></div>
                                 <div class="col-auto especial_p"><h5 class="card-title">Frontend</h5></div>
-                                <div class="col"><hr></div>
+                                <div class="col"><hr class="linea_esp"></div>
                               <div class="icon-habilidades mt-3">
-                                <a href="#"><i class="fab fa-html5"></i></a>
-                                <a href="#"><i class="fab fa-css3-alt"></i></a>
-                                <a href="#"><i class="fab fa-js"></i></i></a>
-                                <a href="#"><i class="fab fa-bootstrap"></i></a>
+                                <i class="fab fa-html5"></i>
+                                <i class="fab fa-css3-alt"></i>
+                                <i class="fab fa-js"></i>
+                                <i class="fab fa-bootstrap"></i>
                             </div>
-                              <p class="card-text">Para el desarrollo Frontend de mis aplicaciones tengo experiencia y conocimientos avanzados: HTML,CSS y JAVASCIPT, como Frameworks de diseño me manejo con BOOTSTRAP</p>
+                              <p class="card-text text-frontend">Experiencia y conocimientos avanzados: <b>HTML</b>,<b>CSS</b> y <b>JAVASCIPT</b>, como Frameworks de diseño me manejo con <b>BOOTSTRAP</b> actualmente incursionando con <b>REACT JS</b>
                             </div>
                           </div>
                     </div>
-                    <div class="col-lg-4 col-md-12">
+                    <div class="col-md-4">
                         <div class="card text-center">
                             <div class="card-body">
-                                <div class="col"><hr></div>
+                                <div class="col"><hr class="linea_esp"></div>
                                 <div class="col-auto especial_p"><h5 class="card-title">Backend</h5></div>
-                                <div class="col"><hr></div>
+                                <div class="col"><hr class="linea_esp"></div>
                               <div class="icon-habilidades mt-3">
-                                <a href="#"><i class="fab fa-php"></i></a>
-                                <a href="#"><i class="fab fa-laravel"></i></a>
-                                <a href="#"><i class="fab fa-java"></i></a>
+                                <i class="fab fa-php"></i>
+                                <i class="fab fa-laravel"></i>
+                                <i class="fab fa-java"></i>
                             </div>
-                              <p class="card-text">Mi fuerte es el lenguaje PHP, como framework principal utilizo LARAVEL en su versio 5.8 hasta la mas actual, a media escala tengo conocimientos en JAVA y MAGIK, actulmente me encuentro incurcionando con NODEJS</p>
+                              <p class="card-text text-backend">Conocimientos avanzados en <b>PHP</b>, como framework principal utilizo <b>LARAVEL</b> en su versio 5.8 hasta la mas actual, a media escala tengo conocimientos en <b>JAVA</b> y <b>MAGIK</b>, actualmente me encuentro incursionando con <b>NODEJS</b></p>
                             </div>
                           </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="card text-center">
                             <div class="card-body">
-                                <div class="col"><hr></div>
-                                <div class="col-auto especial_p"><h5 class="card-title">Base de Datos</h5></div>
-                                <div class="col"><hr></div>
+                                <div class="col"><hr class="linea_esp"></div>
+                                <div class="col-auto especial_p"><h5 class="card-title text-titulo-db">Base de Datos</h5></div>
+                                <div class="col"><hr class="linea_esp"></div>
                               <div class="icon-habilidades mt-3">
-                                <a href="#"><i class="fas fa-database"></i></a>
-                                <a href="#"><i class="fas fa-server"></i></a>
+                                <i class="fas fa-database"></i>
+                                <i class="fas fa-server"></i>
                             </div>
                                 <div class="parrafo">
-                                    <p class="card-text">Manejo en lenguajes de base de datos: ORACLE,SQL-SERVER,MYSQL</p>
+                                    <p class="card-text text-db">Manejo en lenguajes de base de datos: <b>ORACLE</b>,<b>SQL-SERVER</b>,<b>MYSQL</b></p>
                                 </div>
                               
                             </div>
@@ -178,14 +187,14 @@
                     <div class="col-lg-4 col-md-12">
                         <div class="card text-center">
                             <div class="card-body">
-                                <div class="col"><hr></div>
-                                <div class="col-auto especial_p"><h5 class="card-title">Soporte Tecnico</h5></div>
-                                <div class="col"><hr></div>
+                                <div class="col"><hr class="linea_esp"></div>
+                                <div class="col-auto especial_p"><h5 class="card-title text-titulo-st">Soporte Tecnico</h5></div>
+                                <div class="col"><hr class="linea_esp"></div>
                               <div class="icon-habilidades mt-3">
-                                <a href="#"><i class="fas fa-laptop-medical"></i></a>
-                                <a href="#"><i class="fab fa-windows"></i></a>
+                                <i class="fas fa-laptop-medical"></i>
+                                <i class="fab fa-windows"></i>
                             </div>
-                              <p class="card-text">Conocimientos avanzados en hardware y software de aplicaciones ofimaticas</p>
+                              <p class="card-text text-st">Conocimientos avanzados en <b>HARDWARE</b> y <b>SOFTWARE</b> de aplicaciones ofimaticas</p>
                             </div>
                           </div>
                     </div>
@@ -197,7 +206,7 @@
         <!--Empresas-->
         <section class="empresas" id="empresas">
             <div class="titulo-section">
-                <h1>Empresas en las que he colaborado</h1>
+                <h1 class="h1-empresas">Empresas en las que he colaborado</h1>
                 <div class="linea-titulo"></div>
             </div>
             <div class="container-fluid">
@@ -218,10 +227,11 @@
 
     </main>
     <!--end main body-->
+    <a class="btn btn-lg btn-to-top" role="button"><i class="fas fa-arrow-up" style="color: white;"></i></a>
 
     <footer class="footer">
             <div class="container-fluid">
-                <p>Copyright ©2020 Christian Gutierrez M. || Todos los derechos reservados</p>
+                <p class="text-copyright">Copyright ©2020 Christian Gutierrez M. || Todos los derechos reservados</p>
                 <div class="rrss-footer mt-3">
                     <a href="https://www.facebook.com/christianmatias.gutierrezmolina"><i class="fab fa-facebook-square"></i></a>
                     <a href="https://github.com/matgut"><i class="fab fa-github-square"></i></a>
@@ -233,7 +243,6 @@
     <!--bootstrap js-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/translate@1/translate.min.js"></script>
     <script src="./js/index.js"></script>
 </body>
 </html>

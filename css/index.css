@@ -70,6 +70,23 @@ html,body{
     transition: all ease 0.5s;
 }
 
+.btn_group_proyectos{
+    width: 200px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    color: var(--bg-color-2);
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.btn_group_proyectos:hover{
+    background-color: var(--hover-color);
+    color:var(--bg-color-2) !important;
+    transition: all ease 0.5s;
+}
+
 .rrss i{
     color: var(--main-color);
     font-size:  25px;
@@ -153,13 +170,17 @@ nav{
 
 .main-body .empresas{
     padding: 2rem 5rem 8rem;
-    background-color: var(--bg-color-2);
 }
 
 .main-body .empresas .img-emp{
     width: 270px;
     height: 70px;
     margin: 0.5em
+}
+
+.main-body .proyectos{
+    padding: 2rem 5rem 8rem;
+    background-color: var(--bg-color-2);
 }
 
 .footer{
@@ -214,6 +235,23 @@ nav{
     display: none;
     background-color: var(--main-color);
 }
+
+.lista-proyectos{
+    counter-reset: list-counter;
+    list-style: none;
+}
+
+.lista-proyectos li{
+    letter-spacing: 0;
+}
+
+
+.lista-proyectos li i{
+   color: var(--main-color);
+   font-size: 20px;
+   padding: 0.5em; 
+}
+
 
 
 

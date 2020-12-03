@@ -23,7 +23,11 @@ const obj_idiomas = {
         "txt_copyright":"Copyright ©2020 Christian Gutierrez M. || All rights reserved",
         "txt_btn_idioma":"language",
         "txt_btn_idioma_es":"spanish",
-        "txt_btn_idioma_en":"english"
+        "txt_btn_idioma_en":"english",
+        "txt_titulo_proyectos":"Projects",
+        "txt_btn_corp":"Corporate",
+        "txt_btn_per":"Personal",
+        "txt_proyectos_descrip":"Some of my personal and corporate projects in which I have worked"
     }
 }
 
@@ -47,6 +51,7 @@ var titulo_main_val=document.querySelector('.title-main');
 var inicio_val=document.querySelector('.a-home');
 var sobre_mi_val=document.querySelector('.a-sobre-mi');
 var habilidades_val=document.querySelector('.a-habilidades');
+var proyectos_val= document.querySelector('.a-proyectos');
 var empresa_val=document.querySelector('.a-empresas');
 var btn_idioma=document.querySelector('#btn-idioma');
 var btn_idioma_es=document.querySelector('#btn-idioma-es');
@@ -72,6 +77,11 @@ var habilidades_db_val=document.querySelector('.text-db');
 var habilidades_titulost_val=document.querySelector('.text-titulo-st');
 var habilidades_st_val=document.querySelector('.text-st');
 
+//section proyectos
+var proyectos_titulo_val=document.querySelector('.h1-proyectos');
+var proyectos_descripcion_val=document.querySelector('.p-descripcion-proyectos');
+var btn_corp_val=document.querySelector('#btn-corp');
+var btn_per_val=document.querySelector('#btn-per');
 
 //section empresas
 var empresa_titulo_val=document.querySelector('.h1-empresas');
@@ -105,6 +115,11 @@ document.querySelector('#btn-idioma-en').addEventListener('click',function(e){
     btn_idioma.innerHTML=obj_idiomas.en.txt_btn_idioma;
     btn_idioma_es.innerHTML='<img src="./img/chile.png" alt="flag_cl"> '+obj_idiomas.en.txt_btn_idioma_es;
     btn_idioma_en.innerHTML='<img src="./img/united-kingdom.png" alt="flag_uk"> '+obj_idiomas.en.txt_btn_idioma_en;
+    proyectos_titulo_val.innerHTML = obj_idiomas.en.txt_titulo_proyectos;
+    proyectos_descripcion_val.innerHTML=obj_idiomas.en.txt_proyectos_descrip;
+    btn_corp_val.innerHTML=obj_idiomas.en.txt_btn_corp;
+    btn_per_val.innerHTML=obj_idiomas.en.txt_btn_per;
+    proyectos_val.innerHTML=obj_idiomas.en.txt_titulo_proyectos;
 });
 
 document.querySelector('#btn-idioma-es').addEventListener('click',function(e){
@@ -128,5 +143,17 @@ document.querySelector('.btn-to-top').addEventListener('click',function(e){
     e.preventDefault();
     document.body.scrollTop = 0; // Safari
     document.documentElement.scrollTop = 0; //Chrome, Firefox, IE and Opera
+});
+
+document.querySelector('#btn-corp').addEventListener('click', function(e){
+    e.preventDefault();
+    document.querySelector('.c-corporativos').style.display = 'block';
+    document.querySelector('.c-personales').style.display = 'none';
+});
+
+document.querySelector('#btn-per').addEventListener('click', function(e){
+    e.preventDefault();
+    document.querySelector('.c-personales').style.display = 'block';
+    document.querySelector('.c-corporativos').style.display = 'none';
 });
 

@@ -1,6 +1,6 @@
 const obj_idiomas = {
     "en":{
-        "txt_titulo_main":"Christian Gutierrez | Software developer",
+        "txt_titulo_main":"Christian Gutiérrez | Software developer",
         "txt_inicio":"home",
         "txt_sobre_mi":"about",
         "txt_habilidades":"skill",
@@ -13,13 +13,13 @@ const obj_idiomas = {
         "txt_descripcion_2":"I use part of my free time to research and learn new technologies, in order to expand my knowledge in this area.",
         "txt_titulo_habilidades":"Skills",
         "txt_descrip_git":"Correct handling of Git tool for version control, experience with <b> GITHUB </b> AND <b> GITLAB </b>",
-        "txt_descrip_frontend":"Experience and advanced knowledge in <b> HTML </b>, <b> CSS </b> and <b> JAVASCIPT </b>, as Design Frameworks I manage with <b> BOOTSTRAP </b> currently dabbling with <b> REACT JS </b>",
+        "txt_descrip_frontend":"Experience and advanced knowledge in <b> HTML </b>, <b> CSS </b> and <b> JAVASCRIPT </b>, as Design Frameworks I manage with <b> BOOTSTRAP </b> currently dabbling with <b> REACT JS </b>",
         "txt_descrip_backend":"Advanced knowledge in <b> PHP </b>, as the main framework I use <b> LARAVEL </b> in its version 5.8 to the most current, on a medium scale I have knowledge in <b> JAVA </b> and <b > MAGIK </b>, I am currently dabbling with <b> NODEJS </b>",
         "txt_titulo_db":"Database",
         "txt_descrip_db":"Experience in database languages: <b> ORACLE </b>, <b> SQL-SERVER </b>, <b> MYSQL </b>",
         "txt_titulo_st":"Tech support",
         "txt_descrip_st":"Advanced knowledge in <b> HARDWARE </b> and <b> SOFTWARE </b> of office applications",
-        "txt_titulo_empresas":" Companies in I have collaborated",
+        "txt_titulo_empresas":"companies I have worked with",
         "txt_copyright":"Copyright ©2020 Christian Gutierrez M. || All rights reserved",
         "txt_btn_idioma":"language",
         "txt_btn_idioma_es":"spanish",
@@ -59,7 +59,7 @@ var btn_idioma_en=document.querySelector('#btn-idioma-en');
 
 //section presentacion
 var profesion_val=document.querySelector('.h4-presentacion');
-var btn_contacto_val=document.querySelector('.btn-contacto');
+var btn_contacto_val=document.querySelector('.contacto-label');
 
 //section sobre mi
 var sobre_hola_val=document.querySelector('.h4-hola');

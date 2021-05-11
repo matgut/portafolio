@@ -89,7 +89,8 @@ html,body{
 
 .rrss i{
     color: var(--main-color);
-    font-size:  25px;
+    font-size:  45px;
+
 }
 
 .rrss a:hover i{
@@ -110,6 +111,22 @@ html,body{
     background: var(--main-color);
     margin-left: auto;
     margin-right: auto;
+}
+
+.contacto-label{
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contacto-label:after {
+    content:'';
+    position: absolute;
+    background-color: var(--main-color);
+    width: 7px;
+    height: 80%;
+    top: 2px;
+    left:-15px;
 }
 
 .titulo-section{
